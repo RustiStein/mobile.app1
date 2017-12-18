@@ -12,8 +12,7 @@ body.oscuro{
 
 button{
   background-color: #7fba67;
-  color: #ffffff;
-  border: none;
+  color: #ffffff;  border: none;
   width: 100%;
   padding: 30px;
   font-size: 1em;
@@ -35,7 +34,7 @@ button{
   text-transform: uppercase;
 }
 
-#zona-gestos.doubletap{
+#zona-gestos.tap{
     -webkit-animation: pulsacion 1.5s 1;
 }
 
@@ -56,11 +55,14 @@ button{
 }
 
 @-webkit-keyframes pulsacion {
-  0%, 100% {
-    background-color: #7fba67;
+  {
+    background-color:  #7fba67;
   }
-  50% {
-    background-color: #8de1bd;
+  
+  {
+    background-color: #FFFF00 100 ms;
+  }
+    background-color: #7fba67;
   }
 }
 
